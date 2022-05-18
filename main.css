@@ -552,6 +552,10 @@ ul {
         margin-left: 30px;
     }
 
+    .first-screen__header {
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -562,7 +566,6 @@ ul {
     .first-screen__menu_logo {
         padding-left: 50px;
     }
-
     nav {
         margin-left: 60px;
     }
@@ -649,10 +652,6 @@ ul {
 
     .second__image, .fifth__image {
         height: auto;
-    }
-
-    .first-screen__header {
-        margin-top: 10px;
     }
 
     h1 {
