@@ -25,7 +25,7 @@ nav {
     margin-left: 161px;
 }
 
-.first-screen__menu-button {
+.button-login {
     width: 100px;
     height: 40px;
     border: 1px #fff solid;
@@ -55,13 +55,14 @@ nav ul {
     font: 14px Arial, Helvetica, sans-serif;
 }
 
-nav ul li {
+.first-menu__item {
     position: relative;
     float: left;
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
-nav ul li a {
+.first-menu__link {
     color: #fff;
     display: block;
     text-decoration: none;
@@ -71,25 +72,21 @@ ul li a:hover {
     font-weight: 700;
 }
 
-.first-screen__link {
+.first-menu__logo-link {
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.main {
-    height: 500px;
-    background-color: #FFFFFF;
-}
 
-.first-screen {
+.first {
     height: 100vh;
     background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url('images/Rectangle 3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.first-screen__menu {
+.first-menu {
     padding-top: 58px;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +106,7 @@ h1 {
     text-align: center;
 }
 
-.first-screen__header {
+.first-header {
     margin-top: 140px;
 }
 
@@ -120,7 +117,7 @@ h2 {
     color: #000000;
 }
 
-.fifth__header {
+.fifth-header {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
@@ -135,7 +132,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-.first-screen__text {
+.first-text {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 24px;
@@ -149,6 +146,25 @@ a {
 
 }
 
+.button-sign {
+    margin-bottom: 187px;
+    margin-top: 57px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: 600;
+    line-height: 17px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ED4C5C;
+}
+
 .button {
     margin-right: auto;
     margin-left: auto;
@@ -158,9 +174,10 @@ a {
     position: relative;
     text-align: center;
     cursor: pointer;
+    cursor: pointer;
 }
 
-.mainmenu_icon {
+.first-menu__icon {
     vertical-align: middle;
     margin-right: 7px;
     margin-bottom: 6px;
@@ -214,21 +231,21 @@ a {
     background: #FAFAFA;
 }
 
-.third__items {
+.third-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 
-.third__card-header {
+.third-item__card-header {
     margin-top: 33px;
     text-align: center;
     margin-left: 32px;
     margin-right: 32px;
 }
 
-.third__card {
+.third-item__card {
     background-color: #FFFFFF;
     margin-top: -100px;
     z-index: 99;
@@ -243,13 +260,13 @@ a {
     margin-bottom: 124px;
 }
 
-.third__header {
+.third-header {
     text-align: center;
     padding-top: 63px;
     padding-bottom: 63px;
 }
 
-.third__item {
+.third-item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -267,7 +284,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-.third__card-text {
+.third-item__card-text {
     font-size: 12px;
     line-height: 150%;
     text-align: center;
@@ -276,7 +293,7 @@ h3 {
     margin-left: 20px;
 }
 
-.third__read-more {
+.third-item__read-more {
     font-weight: bold;
     font-size: 12px;
     line-height: 150%;
@@ -288,33 +305,14 @@ h3 {
     margin-bottom: 25px;
 }
 
-.first-screen__menu_sign-button {
-    margin-bottom: 187px;
-    margin-top: 57px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 6px;
-    width: 160px;
-    height: 50px;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    background: #FFFFFF;
-    font-weight: 600;
-    line-height: 17px;
-    align-items: center;
-    text-transform: uppercase;
-    color: #ED4C5C;
-}
-
-.fourth__header {
+.fourth-header {
     margin-bottom: 52px;
     text-align: center;
     padding-top: 63px;
 
 }
 
-.fourth__items {
+.fourth-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -324,12 +322,12 @@ h3 {
     margin-bottom: 104px;
 }
 
-.fourth__item {
+.fourth-item {
     width: 255px;
     padding: 30px;
 }
 
-.fourth__item-number {
+.fourth-item__number {
     font-weight: bold;
     font-size: 100px;
     line-height: 120px;
@@ -338,7 +336,7 @@ h3 {
     color: rgba(16, 16, 16, 0.08);
 }
 
-.fourth__item-image {
+.fourth-item__image {
     margin-top: -70px;
 }
 
@@ -392,7 +390,7 @@ h3 {
     margin-top: 117px;
 }
 
-.sixth__header {
+.sixth-header {
     margin-bottom: 59px;
 }
 
@@ -431,7 +429,7 @@ h3 {
     width: 255px;
 }
 
-.sixth__button {
+.sixth-button {
     margin-right: auto;
     margin-left: auto;
     border-radius: 6px;
@@ -458,7 +456,7 @@ h3 {
     justify-content: center;
 }
 
-.seventh__item-1, .copyright__item-1 {
+.seventh-item-1, .copyright-item-1 {
     margin-left: 161px;
     width: 259px;
     margin-top: 108px;
@@ -466,34 +464,34 @@ h3 {
     margin-bottom: 85px;
 }
 
-.seventh__item-2, .copyright__item-2 {
+.seventh-item-2, .copyright-item-2 {
     margin-left: 30px;
     width: 254px;
     margin-top: 108px;
     text-align: left;
 }
 
-.seventh__item-3, .copyright__item-3 {
+.seventh-item-3, .copyright-item-3 {
     margin-left: 30px;
     width: 122px;
     margin-top: 108px;
     text-align: left;
 }
 
-.seventh__item-4, .copyright__item-4 {
+.seventh-item-4, .copyright-item-4 {
     margin-left: 166px;
     width: 216px;
     margin-top: 108px;
     text-align: left;
 }
 
-.seventh__text {
+.seventh-text {
     margin-top: 33px;
     font-size: 12px;
     line-height: 150%;
 }
 
-.seventh__icons {
+.seventh-item-3__icons {
     display: flex;
     width: 66px;
     justify-content: space-between;
@@ -507,11 +505,11 @@ ul {
     list-style-type: none;
 }
 
-.copyright__item-1 {
+.copyright-item-1 {
     margin-top: 108px;
 }
 
-.copyright__item-2, .copyright__item-3, .copyright__item-4 {
+.copyright-item-2, .copyright-item-3, .copyright__item-4 {
     margin-top: 0px;
 }
 
@@ -525,7 +523,7 @@ ul {
     }
 
 
-    .first-screen__header {
+    .first-header {
         margin-top: 40px;
     }
 
@@ -534,11 +532,11 @@ ul {
         margin-top: 60px;
     }
 
-    .first-screen__menu-button {
+    .button-login {
         margin-left: 80px;
     }
 
-    .first-screen__menu_logo {
+    .first-menu__logo {
         padding-left: 165px;
     }
 }
@@ -548,11 +546,11 @@ ul {
         width: 100%;
     }
 
-    .seventh__item-1, .copyright__item-1 {
+    .seventh-item-1, .copyright-item-1 {
         margin-left: 30px;
     }
 
-    .first-screen__header {
+    .first-header {
         margin-top: 10px;
     }
 
@@ -563,14 +561,15 @@ ul {
         width: 100%;
     }
 
-    .first-screen__menu_logo {
+    .first-menu__logo {
         padding-left: 50px;
     }
+
     nav {
         margin-left: 60px;
     }
 
-    .first-screen__menu-button {
+    .button-login {
         margin-left: 50px;
     }
 
@@ -640,7 +639,7 @@ ul {
         height: auto;
     }
 
-    .seventh__item {
+    .seventh-item-4 {
         margin-top: 30px;
     }
 }
@@ -658,12 +657,25 @@ ul {
         margin-top: 20px;
     }
 
-    .first-screen__menu_sign-button {
+    .button-sign {
         margin-top: 20px;
     }
 
     .fifth__column_images {
         margin-bottom: 60px;
+    }
+
+    .first-menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul li {
+        float: none;
+    }
+
+    .button-login {
+        margin-left: 0;
     }
 }
 
@@ -672,7 +684,7 @@ ul {
         width: 540px;
     }
 
-    .first-screen__menu_logo {
+    .first-menu__logo {
         padding-left: 10px;
     }
 
@@ -702,16 +714,16 @@ ul {
         margin-left: 70px;
     }
 
-    .seventh__item {
+    .seventh-item-4 {
         margin-top: 30px;
         margin-left: 30px;
     }
 
-    .seventh__item-3 {
+    .seventh-item-3 {
         width: 259px;
     }
 
-    .seventh__item-4 {
+    .seventh-item-4 {
         width: 259px;
     }
 
@@ -720,6 +732,7 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
+
     .third__item {
         margin-right: 0;
     }
@@ -738,7 +751,7 @@ ul {
         width: 100%;
     }
 
-    .first-screen__menu {
+    .first-menu {
         padding-top: 20px;
     }
 
@@ -747,12 +760,12 @@ ul {
         margin-bottom: 20px;
     }
 
-    .first-screen__text {
+    .first__text {
         font-size: 16px;
         line-height: 120%;
     }
 
-    .first-screen__menu-button {
+    .button-login {
         margin-top: 10px;
     }
 
@@ -760,8 +773,21 @@ ul {
         line-height: 180%;
     }
 
-    .seventh__item-1, .seventh__item-2, .seventh__item-3, .seventh__item-4 {
+    .seventh-item-1, .seventh-item-2, .seventh-item-3, .seventh-item-4 {
         margin-top: 30px;
     }
 
+    .first-menu__logo, .button-login {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-text {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .second__text {
+        margin-top: 30px;
+    }
 }
