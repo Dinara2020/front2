@@ -108,6 +108,11 @@ h1 {
 
 .first-header {
     margin-top: 140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 h2 {
@@ -236,6 +241,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .third-item__card-header {
@@ -675,14 +681,22 @@ ul {
     }
 
     .button-login {
-        margin-left: 0;
+        margin-top: 30px;
+    }
+    .first-menu__logo, .button-login, nav, .first-menu__logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first-menu__logo {
+        padding-left: unset;
+    }
+    nav {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .container {
-        width: 540px;
-    }
 
     .first-menu__logo {
         padding-left: 10px;
@@ -777,11 +791,6 @@ ul {
         margin-top: 30px;
     }
 
-    .first-menu__logo, .button-login {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .first-text {
         font-size: 16px;
         line-height: normal;
@@ -789,5 +798,11 @@ ul {
 
     .second__text {
         margin-top: 30px;
+    }
+    .third-items__image {
+        max-width: 320px;
+    }
+    .third-item {
+        margin-right: unset;
     }
 }
